@@ -88,7 +88,7 @@ public class UserController {
 
 
     /*
-        分配角色方法
+        分配角色
      */
     @RequestMapping("/userContextRole")
     public ResponseResult userContextRole(@RequestBody UserVo userVo){
